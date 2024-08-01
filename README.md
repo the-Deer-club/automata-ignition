@@ -14,6 +14,10 @@ This guide installs the following tools:
   - **Git**: Version control system.
   - **Node Version Manager (NVM)**: Manage multiple Node.js versions.
   - **Visual Studio Code (VSCode)**: Code editor.
+  - **Warp**: Terminal
+  - **Mongo Compass**: Interactive tool for analyzing MongoDB data
+  - **Postman**: Collaboration platform for API development
+  - **Docker**: Pack, ship and run any application as a lightweight container
 
 - **Debian/Ubuntu**:
   - **APT**: Package manager for Debian/Ubuntu.
