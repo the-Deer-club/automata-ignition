@@ -1,7 +1,3 @@
-Here's a TL;DR version for the README:
-
----
-
 # TL;DR - macOS Dev Environment Setup
 
 This guide installs the following tools on macOS:
@@ -10,6 +6,10 @@ This guide installs the following tools on macOS:
 - **Git**: Version control system.
 - **Node Version Manager (NVM)**: Manage multiple Node.js versions.
 - **Visual Studio Code (VSCode)**: Code editor.
+- **Warp**: Terminal
+- **Mongo Compass**: Interactive tool for analyzing MongoDB data
+- **Postman**: Collaboration platform for API development
+- **Docker**: Pack, ship and run any application as a lightweight container
 
 ## Installation Commands
 
@@ -30,7 +30,21 @@ nvm install node
 
 # Install VSCode
 brew install --cask visual-studio-code
+
+# Install Warp
+brew install --cask warp
+
+# Install MongoCompass
+brew install --cask mongodb-compass
+
+# Install Postman
+brew install --cask postman
+
+# Install Docker
+brew install docker
 ```
+
+
 
 Enjoy your development setup!
 
