@@ -20,6 +20,9 @@ This guide installs the following tools on macOS:
 # Install Git
 brew install git
 
+# Install Oh My Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # Install NVM
 brew install nvm
 mkdir ~/.nvm
