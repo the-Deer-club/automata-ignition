@@ -4,6 +4,8 @@ This guide installs the following tools on macOS:
 
 - **Homebrew**: Package manager for macOS.
 - **Git**: Version control system.
+- **Oh My Zsh**: ZSH bash
+- **Powerlevel10k**: A ZSH Theme
 - **Node Version Manager (NVM)**: Manage multiple Node.js versions.
 - **Visual Studio Code (VSCode)**: Code editor.
 - **Warp**: Terminal
@@ -22,6 +24,10 @@ brew install git
 
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Install Powerlevel10k theme
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+sed -i '' 's/ZSH_THEME="robbyrussell"/ZSH_THEME="powerlevel10k\/powerlevel10k"/' ~/.zshrc
 
 # Install NVM
 brew install nvm
