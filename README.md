@@ -2,7 +2,6 @@
 
 ## Store Script For Installation Server
 
-Got it! Here's the streamlined TL;DR version without installation commands:
 
 ---
 
