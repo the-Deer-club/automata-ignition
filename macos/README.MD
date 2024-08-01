@@ -41,7 +41,7 @@ brew install --cask mongodb-compass
 brew install --cask postman
 
 # Install Docker
-brew install docker
+brew install --cask docker
 ```
 
 
